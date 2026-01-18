@@ -1,8 +1,15 @@
 export interface MenuItem {
-  id: string;
+  id: number;
   name: string;
-  quantity: string;
+  quantity: number;
   desc: string;
   price: number;
   image: string;
+}
+
+export interface CartItem {
+  id: number;
+  name: string;
+  price: number;
+  quantity: number;
 }
